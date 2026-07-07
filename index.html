@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garimpo Shopee — Achadinhos</title>
+<meta name="description" content="Os melhores achadinhos da Shopee com preço de garimpo. Ofertas novas todos os dias.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --laranja:#ee4d2d; --verde:#1fa855; --bg:#faf7f2; --card:#fff; --texto:#2b2b2b; --suave:#7a7a7a; --borda:#ececec; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--texto); min-height:100vh; padding:28px 18px 48px; }
+  .wrap { max-width:440px; margin:0 auto; }
+  .topo { text-align:center; margin-bottom:22px; }
+  .avatar { width:96px; height:96px; border-radius:50%; background:var(--laranja); display:flex; align-items:center; justify-content:center; margin:0 auto 12px; font-size:44px; box-shadow:0 4px 16px rgba(238,77,45,.25); }
+  .nome { font-size:21px; font-weight:600; }
+  .sub { font-size:14px; color:var(--suave); margin-top:5px; }
+  a.botao { display:flex; align-items:center; justify-content:center; gap:9px; text-decoration:none; border-radius:14px; font-weight:500; transition:transform .12s ease, box-shadow .12s ease; }
+  a.botao:active { transform:scale(.98); }
+  .whats { background:var(--verde); color:#fff; padding:15px; font-size:15px; margin:20px 0 10px; box-shadow:0 4px 14px rgba(31,168,85,.28); }
+  .redes { display:flex; gap:10px; margin-bottom:22px; }
+  .redes a { flex:1; background:var(--card); border:1px solid var(--borda); color:var(--texto); padding:13px; font-size:14px; }
+  .rotulo { text-align:center; font-size:12px; color:var(--suave); text-transform:uppercase; letter-spacing:.6px; margin-bottom:12px; }
+  .nichos { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .nichos a { background:var(--card); border:1px solid var(--borda); color:var(--texto); padding:15px 14px; font-size:14px; justify-content:flex-start; }
+  .ico { font-size:20px; }
+  .rodape { text-align:center; font-size:11px; color:var(--suave); margin-top:22px; line-height:1.6; }
+  .emoji { font-size:20px; line-height:1; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topo">
+      <div class="avatar"><span class="emoji">🛒</span></div>
+      <div class="nome">Garimpo Shopee</div>
+      <div class="sub">🛒 Os melhores achadinhos com preço de garimpo · ofertas novas todo dia 🔥</div>
+    </div>
+
+    <a class="botao whats" href="https://whatsapp.com/channel/0029VawDBw2BVJkvwg5Yq10l" target="_blank" rel="noopener">
+      <span class="emoji">💬</span> Entrar na comunidade do WhatsApp
+    </a>
+
+    <div class="redes">
+      <a class="botao" href="https://www.instagram.com/garimpo_shopee2" target="_blank" rel="noopener"><span class="emoji">📸</span> Instagram</a>
+      <a class="botao" href="https://shopee.com.br/" target="_blank" rel="noopener"><span class="emoji">▶️</span> Shopee Video</a>
+    </div>
+
+    <div class="rotulo">Achadinhos por categoria</div>
+    <div class="nichos">
+      <!-- Troque os href="#" pelos links de afiliado de cada categoria (subId: bio-casa, bio-eletro, etc.) -->
+      <a class="botao" href="#" data-nicho="casa"><span class="ico">🏠</span> Casa &amp; Cozinha</a>
+      <a class="botao" href="#" data-nicho="eletronicos"><span class="ico">📱</span> Eletrônicos</a>
+      <a class="botao" href="#" data-nicho="beleza"><span class="ico">💄</span> Beleza</a>
+      <a class="botao" href="#" data-nicho="moda"><span class="ico">👗</span> Moda</a>
+      <a class="botao" href="#" data-nicho="pets"><span class="ico">🐶</span> Pets</a>
+      <a class="botao" href="#" data-nicho="kids"><span class="ico">🧸</span> Kids</a>
+    </div>
+
+    <div class="rodape">
+      Participo do Programa de Afiliados da Shopee e posso receber comissão pelas compras.<br>
+      © Garimpo Shopee
+    </div>
+  </div>
+</body>
+</html>
